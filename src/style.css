@@ -49,11 +49,11 @@ table {
 
 .form {
     border: 1px solid #274C77;
-    max-width: 300px; 
+    max-width: 275px; 
     padding: 4px;
 }
 .content {
-    max-width: 350px;
+    max-width: 300px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 150px;
@@ -70,6 +70,17 @@ table {
 
 .today {
     grid-column: 1/3;
+    padding: 8px;
+    display: grid;
+    gap: 16px;
+}
+
+h4 {
+    font-size: larger;
+}
+
+.conditions {
+    display: flex;
 }
 
 .tomorrow {
@@ -80,3 +91,6 @@ table {
     
 }
 
+.credit {
+    margin-top: 25px;
+}
