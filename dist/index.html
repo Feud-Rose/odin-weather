@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Weather</title>
     </head>
     <body>
-        <script src="main.js"></script>
+        <div class="content">
+        <div class="today">
+            <h4>Today</h4>
+        </div>
+        <div class="tomorrow"><h5>Tomorrow</h5></div>
+        <div class="twoDays"><h5>...</h5></div>
+
+
+        </div>
+        <div class="form">
+            <label for="location">Enter Location</label>
+            <input type="text" name="location" id="location">
+            <button>Enter</button>
+        </div>       
+    <div class="credit">Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+    </div>
+        <script src="main.js" defer></script>
     </body>
 </html>
